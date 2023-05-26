@@ -1,1 +1,137 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title name="nav-title">Pi-Invoicing</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/apple-pie-logo.png">
+</head>
+<body>
+
+    <nav class="topnav" id="myTopnav">
+        <a href="#" class="logo">Pi-Invoicing</a>
+        <a href="#features-section" class="black">Features</a>
+        <a href="#info-section" class="black">Info</a>
+        <a href="#pricing-section" class="black">Pricing</a>
+        <a href="https://seng-apple-pie.github.io/documentation/" target="_blank" class="black">Docs</a>
+        <a href="https://einvoice1.michaelhe.co.nz/" target="_blank" class="sign-in-cta">Sign in</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <h1>Making <span class="invoicing-text">invoicing</span> <br>as easy as <span class="pie-text">pie</span>.</h1>
+                <p class="subhead">Bringing invoicing to your business streamlined, secure and sustainable.</p>
+                <div class="hero-cta">
+                    <a href="https://einvoice1.michaelhe.co.nz/" target="_blank" class="sign-up-cta">Sign up</a>
+                </div>
+            </div>
+
+            <img src="images/illustration.jpg" alt="finance illustration" class="hero-img">
+        </div>
+    </section>
+
+    <section id="features-section" class="features-section">
+        <div class="container">
+            <div class="feature">
+                <img src="images/streamlined.jpg" alt="Person">
+                <h3>Streamlined</h3>
+                <p>One application that covers all your invoicing needs- the creation, validation, rendering, sending, receiving and storage of invoices.</p>
+
+            </div>
+            <div class="feature">
+                <img src="images/secure.jpg" alt="Person">
+                <h3>Secure</h3>
+                <p>We understand that financial information is highly confidential, so security is one of our biggest priorities.</p>
+
+            </div>
+            <div class="feature">
+                <img src="images/sustainable.jpg" alt="Person">
+                <h3>Service</h3>
+                <p>Our simple UI/UX design seeks to serve those even without financial experience.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="info-section" class="info">
+        <div class="container">
+            <div class="info-text">
+                <h2>Why e-invoicing?</h2>
+                <p>More than 1.2 million invoices are exchanged annually in Australia. And yet, 90% are still either partially or fully manual.
+
+                    Not only does manual invoicing require inordinate amounts of time and budget expenses validating the invoice, the process also faces many other common problems such as misplacement, a lack of transparency or fraud vulnerability.
+                    
+                    It is predicted that switching from manual to e-invoicing will save businesses $20 in costs for each invoice. Currently, all Commonwealth agencies are on track to have the capability to receive e-invoices by 1 July 2022, with over 80 per cent of Commonwealth invoices able to be received electronically.</p>
+            </div>
+
+            <div class="info-images">
+                <img class="invoice1" src="images/invoice1.jpg" alt="Invoice">
+                <img class="invoice2" src="images/invoice2.jpg" alt="Invoice">
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing-section" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <img src="images/pricing_packages.svg" alt="">
+            <a href="https://einvoice1.michaelhe.co.nz/" target="_blank" class="get-started-cta">Get started now</a>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="container">
+            <div class="footer-pi-invoicing">
+                <h3>Pi-Invoicing</h3>
+                <p>The best e-invoicing solution to automate your business processes.</p>
+            </div>
+            <div class="footer-about">
+                <h3>About</h3>
+                <ul>
+                    <li>Product</li>
+                    <li>Resources</li>
+                    <li>Terms &amp; Conditions</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="footer-company">
+                <h3>Company</h3>
+                <ul>
+                    <li>Our Team</li>
+                    <li>Partner With Us</li>
+                    <li>Privacy &amp; Policies</li>
+                    <li>Features</li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li>+012 3456789</li>
+                    <li>applepieisdabesttt@gmail.com</li>
+                    <div class="social-media">
+                        <!-- insert icons here -->
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+            let x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+        }
+    </script>
+</body>
+</html>
