@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 body {
-  background: #ffffff;
+  background: #e2d8b7;
   margin: 0;
   font-family: 'Poppins';
 }
@@ -18,12 +18,12 @@ body {
 
 h2 {
   text-align: center;
-  color: #354F82;
+  color: #30552c;
 }
 
 .navbar {
   position: fixed;
-  background: #C8D1E3;
+  background: #768f73;
   padding: 1em 0em;
   height: 3em;
   width: 100%;
@@ -36,13 +36,13 @@ h2 {
   float: left;
   text-decoration: none;
   font-weight: 700;
-  color: #6569CB;
+  color: #104e0e;
   font-size: 1.2em;
 }
 
 .navbar nav {
   float: right;
-  background: #C8D1E3;
+  background: #768f73;
 }
 
 .navbar ul {
@@ -113,7 +113,7 @@ section {
 }
 
 .features-section {
-  background: #C8D1E3;
+  background: #768f73;
 }
 
 .left-col h1 {
@@ -156,7 +156,7 @@ section {
 
 .features-section .container h3 {
   text-align: center;
-  color: #6569CB;
+  color: #104e0e;
 }
 
 .features-section .container p {
@@ -258,7 +258,7 @@ section {
 }
 
 .pricing .get-started-cta {
-  background: #6569CB;
+  background: #104e0e;
   color: white;
   text-decoration: none;
   padding: 0.5em 0.8em;
@@ -268,7 +268,7 @@ section {
 }
 
 .footer-section {
-  background: #354F82;
+  background: #30552c;
   padding: 2em 0em;
 }
 
@@ -366,7 +366,7 @@ a {
 
 .topnav {
   overflow: hidden;
-  background-color: #C8D1E3;
+  background-color: #768f73;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -412,11 +412,11 @@ a {
 }
 
 .black {
-  color: #354F82;
+  color: #30552c;
 }
 
 .sign-in-cta {
-  background: #6569CB;
+  background: #104e0e;
   color: white;
   text-decoration: none;
   padding: 0.5em 0.8em;
@@ -431,7 +431,7 @@ a {
 }
 
 .sign-up-cta {
-  background: #6569CB;
+  background: #104e0e;
   color: white;
   text-decoration: none;
   padding: 0.5em 0.8em;
@@ -447,7 +447,7 @@ a {
 
 .logo {
   padding-top: 0.2em;
-  color: #6569CB;
+  color: #104e0e;
   font-weight: 600;
   margin-left: 230px;
   margin-right: 300px;
