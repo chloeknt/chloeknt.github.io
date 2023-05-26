@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 body {
-  background: #e2d8b7;
+  background: #f0e3c7;
   margin: 0;
   font-family: 'Poppins';
 }
@@ -77,15 +77,15 @@ section {
 .hero {
   text-align: center;
   margin-top: -1em;
-  color: #2C2B3F;
+  color: #104e0e;
 }
 
 .hero .invoicing-text {
-  color: #345698;
+  color: #71976a;
 }
 
 .hero .pie-text {
-  color: #FFB965;
+  color: #899767;
   padding-top: 50px;
 }
 
@@ -124,7 +124,7 @@ section {
 }
 
 .left-col .subhead {
-  color: #565577;
+  color: #597755;
   font-size: 1.1em;
   padding-bottom: 1em;
 }
@@ -134,8 +134,8 @@ section {
 }
 
 .features-section {
-  background: #F4F8FB;
-  color: #61607F;
+  background: #fbf9f4;
+  color: #657f60;
 }
 
 .features-section img {
@@ -218,19 +218,19 @@ section {
 
 .info .info-text {
   text-align: left;
-  color: #807F99;
+  color: #86997f;
   margin-top: 2em;
   margin-left: 5em;
   margin-right: 5em;
 }
 
 .info .info-text h2 {
-  color: #807F99;
+  color: #82997f;
 }
 
 .pricing {
   background: #F4F8FB;
-  color: #61607F;
+  color: #647f60;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,7 +280,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #9AA7C0;
+  color: #a8c09a;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
