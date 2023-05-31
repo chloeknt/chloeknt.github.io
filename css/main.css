@@ -277,7 +277,7 @@ section {
   }
 }
 
-/* .pricing .container {
+.pricing .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,7 +288,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-} */
+}
 
 /* .pricing img {
   display: block;
