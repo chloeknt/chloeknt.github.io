@@ -106,8 +106,8 @@ section {
 }
 
 .hero-img {
-  width: 500px;
-  height: 500px;
+  width: 614px;
+  height: 800px;
   margin-left: 50px;
   z-index: -5;
 }
@@ -355,8 +355,8 @@ a {
             align-items: center;
   }
   .hero-img {
-    width: 500px;
-    height: 500px;
+    width: 614px;
+    height: 800px;
     margin-left: 0px;
   }
   .info-text {
