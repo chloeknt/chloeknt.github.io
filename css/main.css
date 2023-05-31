@@ -198,22 +198,18 @@ section {
           flex-direction: column;
 }
 
-.info .invoice1 {
+.info .plant1 {
   position: relative;
   top: 0;
   left: 0;
   width: 200px;
-  -webkit-box-shadow: 8px 8px 5px #ccc;
-          box-shadow: 8px 8px 5px #ccc;
 }
 
-.info .invoice2 {
+.info .plant2 {
   position: absolute;
   top: 10em;
   left: -5em;
   width: 150px;
-  -webkit-box-shadow: 8px 8px 5px #ccc;
-          box-shadow: 8px 8px 5px #ccc;
 }
 
 .info .info-text {
