@@ -202,14 +202,14 @@ section {
   position: relative;
   top: 0;
   left: 0;
-  width: 200px;
+  width: 400px;
 }
 
 .info .plant2 {
   position: absolute;
   top: 10em;
   left: -5em;
-  width: 150px;
+  width: 200px;
 }
 
 .info .info-text {
