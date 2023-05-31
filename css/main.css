@@ -112,7 +112,7 @@ section {
   z-index: -5;
 }
 
-.features-section {
+.experience-section {
   background: #768f73;
 }
 
@@ -129,22 +129,22 @@ section {
   padding-bottom: 1em;
 }
 
-.left-col .sign-up-cta {
+/* .left-col .contact-me-cta {
   padding: 0.5em 1.2em;
-}
+} */
 
-.features-section {
+.experience-section {
   background: #fbf9f4;
   color: #657f60;
 }
 
-.features-section img {
+.experience-section img {
   width: 12em;
   height: 12em;
   border-radius: 50%;
 }
 
-.features-section .container {
+.experience-section .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,16 +154,16 @@ section {
   text-align: center;
 }
 
-.features-section .container h3 {
+.experience-section .container h3 {
   text-align: center;
   color: #104e0e;
 }
 
-.features-section .container p {
+.experience-section .container p {
   text-align: left;
 }
 
-.features-section .feature {
+.experience-section .feature {
   width: 300px;
 }
 
@@ -415,7 +415,7 @@ a {
   color: #30552c;
 }
 
-.sign-in-cta {
+.contact-me-cta {
   background: #104e0e;
   color: white;
   text-decoration: none;
@@ -425,12 +425,12 @@ a {
   font-weight: 500;
 }
 
-.sign-in-cta:hover {
+.contact-me-cta:hover {
   background: #FFB965;
   color: black;
 }
 
-.sign-up-cta {
+.contact-me-cta {
   background: #104e0e;
   color: white;
   text-decoration: none;
@@ -440,7 +440,7 @@ a {
   font-weight: 500;
 }
 
-.sign-up-cta:hover {
+.contact-me-cta:hover {
   background: #FFB965;
   color: black;
 }
