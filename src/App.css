@@ -306,7 +306,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #1A3A3A;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -344,7 +344,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #1A3A3A;
 }
 .project h2 {
 	font-size: 45px;
@@ -507,7 +507,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button {
   font-weight: 700;
-  color: #000;
+  color: #1A3A3A;
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
