@@ -47,32 +47,32 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Pi-Invoicing",
+      title: "EcoData",
       description: "Homepage",
       imgUrl: projImg2,
     },
     {
-      title: "Pi-Invoicing",
+      title: "EcoData",
       description: "Dashboard",
       imgUrl: projImg3,
     },
     {
-      title: "Pi-Invoicing",
+      title: "EcoData",
       description: "Invoice Validation",
       imgUrl: projImg1,
     },
     {
-      title: "Pi-Invoicing",
+      title: "EcoData",
       description: "Invoice Creation",
       imgUrl: projImg4,
     },
     {
-      title: "Pi-Invoicing",
+      title: "EcoData",
       description: "Invoice Conversion, Photo to XML",
       imgUrl: projImg5,
     },
     {
-      title: "Pi-Invoicing",
+      title: "EcoData",
       description: "Invoice Upload",
       imgUrl: projImg6,
     },
@@ -80,32 +80,32 @@ export const Projects = () => {
 
   const projects3 = [
     {
-      title: "Pi-Invoicing",
+      title: "PillPal",
       description: "Homepage",
       imgUrl: projImg2,
     },
     {
-      title: "Pi-Invoicing",
+      title: "PillPal",
       description: "Dashboard",
       imgUrl: projImg3,
     },
     {
-      title: "Pi-Invoicing",
+      title: "PillPal",
       description: "Invoice Validation",
       imgUrl: projImg1,
     },
     {
-      title: "Pi-Invoicing",
+      title: "PillPal",
       description: "Invoice Creation",
       imgUrl: projImg4,
     },
     {
-      title: "Pi-Invoicing",
+      title: "PillPal",
       description: "Invoice Conversion, Photo to XML",
       imgUrl: projImg5,
     },
     {
-      title: "Pi-Invoicing",
+      title: "PillPal",
       description: "Invoice Upload",
       imgUrl: projImg6,
     },
@@ -130,7 +130,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">EcoData</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">PillPal (WIP)</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
