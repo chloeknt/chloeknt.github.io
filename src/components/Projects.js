@@ -135,7 +135,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <p>For more information, check out our landing page: <a href="https://seng-apple-pie.github.io/landing-page/">https://seng-apple-pie.github.io/landing-page/</a></p>
+                      <p>For more information, check out our landing page: <a href="https://seng-apple-pie.github.io/landing-page/">https://seng-apple-pie.github.io/landing-page/</a> (Application not active) </p>
                       <Row>
                         {
                           projects1.map((project, index) => {
