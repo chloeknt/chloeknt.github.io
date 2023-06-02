@@ -342,9 +342,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  /* padding: 80px 0;
   position: relative;
-  background-color: #1A3A3A;
+  background-color: #1A3A3A; */
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('./assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .project h2 {
 	font-size: 45px;
