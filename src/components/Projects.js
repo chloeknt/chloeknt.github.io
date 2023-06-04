@@ -6,6 +6,13 @@ import projImg3 from "../assets/img/PI-3.png";
 import projImg4 from "../assets/img/PI-4.png";
 import projImg5 from "../assets/img/PI-5.png";
 import projImg6 from "../assets/img/PI-6.png";
+import ED1 from "../assets/img/ED1.png";
+import ED2 from "../assets/img/ED2.png";
+import ED3 from "../assets/img/ED3.png";
+import ED4 from "../assets/img/ED4.png";
+import ED5 from "../assets/img/ED5.png";
+import ED6 from "../assets/img/ED6.png";
+import wip from "../assets/img/wip.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -48,66 +55,66 @@ export const Projects = () => {
   const projects2 = [
     {
       title: "EcoData",
-      description: "Homepage",
-      imgUrl: projImg2,
+      description: "Login",
+      imgUrl: ED1,
     },
     {
       title: "EcoData",
-      description: "Dashboard",
-      imgUrl: projImg3,
+      description: "Onboarding - SDG Goals",
+      imgUrl: ED2,
     },
     {
       title: "EcoData",
-      description: "Invoice Validation",
-      imgUrl: projImg1,
+      description: "Onboarding - Industries",
+      imgUrl: ED3,
     },
     {
       title: "EcoData",
-      description: "Invoice Creation",
-      imgUrl: projImg4,
+      description: "Onboarding - Stocks",
+      imgUrl: ED4,
     },
     {
       title: "EcoData",
-      description: "Invoice Conversion, Photo to XML",
-      imgUrl: projImg5,
+      description: "ESG Heatmap",
+      imgUrl: ED5,
     },
     {
       title: "EcoData",
-      description: "Invoice Upload",
-      imgUrl: projImg6,
+      description: "Portfolio Analysis",
+      imgUrl: ED6,
     },
   ];
 
   const projects3 = [
     {
       title: "PillPal",
-      description: "Homepage",
-      imgUrl: projImg2,
+      description: "Coming Soon...",
+      imgUrl: wip,
     },
     {
       title: "PillPal",
-      description: "Dashboard",
-      imgUrl: projImg3,
+      description: "Coming Soon...",
+      imgUrl: wip,
     },
     {
       title: "PillPal",
-      description: "Invoice Validation",
-      imgUrl: projImg1,
+      description: "Coming Soon...",
+      imgUrl: wip,
     },
     {
       title: "PillPal",
-      description: "Invoice Creation",
-      imgUrl: projImg4,
+      description: "Coming Soon...",
+      imgUrl: wip,
     },
     {
       title: "PillPal",
-      description: "Invoice Conversion, Photo to XML",
-      imgUrl: projImg5,
+      description: "Coming Soon...",
+      imgUrl: wip,
     },
     {
       title: "PillPal",
-      description: "Invoice Upload",
-      imgUrl: projImg6,
+      description: "Coming Soon...",
+      imgUrl: wip,
     },
   ];
 
